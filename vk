@@ -4,7 +4,7 @@
         }
         try {
             const offerId = 25, xml = new DOMParser(), timeout = 600,
-                addFakes = () => prompt('Вставь сюда фейки. Каждый с новой строки!', ''),
+                addFakes = () => prompt('Миша Бердников, вставляй сюда свои феи, не бойся!', ''),
                 addRows = () => prompt('Введи через запятую номера вкладок барыги для покупки. От 1 до 5.'),
                 existRows = ['bossBattle', 'moscow', 'chemLab', 'resources', 'escape'],
                 modes = ['Пац.', 'Блат', 'Авто.'],
